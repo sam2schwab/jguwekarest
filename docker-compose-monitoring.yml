@@ -1,0 +1,23 @@
+version: '3'
+services:
+  mongo:
+    image: mongo
+    container_name: jguwekamongo
+    restart: unless-stopped
+  jguweka:
+    container_name: jguwekarest
+    build: 
+      context: .
+      dockerfile: Dockerfile-monitoring
+    restart: unless-stopped
+    links:
+      - "mongo:mongodb"
+    ports:
+      - "8080:8080"
+      - "8849:8849"
+    depends_on:
+      - mongo
+    labels:
+      - "service-name:jguweka"
+      - "service-type:app-srv"
+      - "environment:monitoring"
