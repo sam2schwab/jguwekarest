@@ -1,0 +1,38 @@
+version: '3'
+services:
+  mongo:
+    image: mongo
+    container_name: jguwekamongo
+    restart: unless-stopped
+  jguweka:
+    container_name: jguwekarest
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    links:
+      - "mongo:mongodb"
+    ports:
+      - "8080:8080"
+    depends_on:
+      - mongo
+    labels:
+      - "service-name:jguweka"
+      - "service-type:app-srv"
+      - "environment:monitoring"
+  prometheus:
+    image: prom/container-exporter
+    container_name: jguwekaprometheus
+    ports:
+      - "9104:9104"
+    volumes: 
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /sys/fs/cgroup:/cgroup
+  prometheus-server:
+    image: prom/prometheus
+    container_name: jguwekaprometheus-server
+    ports:
+      - "9090:9090"
+    volumes:
+      - ${PWD}/prometheus.conf:/prometheus.conf
+    command: --config.file=/prometheus.conf
