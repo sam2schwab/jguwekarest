@@ -1,0 +1,8 @@
+prometheus-server:
+    image: prom/prometheus
+    container_name: jguwekaprometheus-server
+    ports:
+      - "9090:9090"
+    volumes:
+      - ${PWD}/prometheus.conf:/prometheus.conf
+    command: --config.file=/prometheus.conf

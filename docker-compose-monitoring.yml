@@ -4,8 +4,9 @@ services:
     image: mongo
     container_name: jguwekamongo
     restart: unless-stopped
+    networks:
+      - back-tier
   jguweka:
-    container_name: jguwekarest
     build: 
       context: .
       dockerfile: Dockerfile
@@ -13,9 +14,12 @@ services:
     links:
       - "mongo:mongodb"
     ports:
-      - "8080:8080"
+      - 8080
     depends_on:
       - mongo
+    networks:
+      - front-tier
+      - back-tier
     labels:
       - "service-name:jguweka"
       - "service-type:app-srv"
@@ -28,11 +32,19 @@ services:
     volumes: 
       - /var/run/docker.sock:/var/run/docker.sock
       - /sys/fs/cgroup:/cgroup
-  prometheus-server:
-    image: prom/prometheus
-    container_name: jguwekaprometheus-server
+  lb:
+    image: dockercloud/haproxy
     ports:
-      - "9090:9090"
+      - 80:80
+    links:
+      - jguweka
+    networks:
+      - front-tier
     volumes:
-      - ${PWD}/prometheus.conf:/prometheus.conf
-    command: --config.file=/prometheus.conf
+      - /var/run/docker.sock:/var/run/docker.sock
+  
+networks:
+  front-tier:
+    driver: bridge
+  back-tier:
+    driver: bridge
