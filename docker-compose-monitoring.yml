@@ -9,13 +9,12 @@ services:
   jguweka:
     build: 
       context: .
-      dockerfile: Dockerfile-profiling
+      dockerfile: Dockerfile
     restart: unless-stopped
     links:
       - "mongo:mongodb"
     ports:
       - 8080
-      - "8849:8849"
     depends_on:
       - mongo
     networks:

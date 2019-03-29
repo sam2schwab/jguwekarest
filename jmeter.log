@@ -1,0 +1,72 @@
+2019-03-28 22:56:33,406 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2019-03-28 22:56:33,419 INFO o.a.j.JMeter: Loading user properties from: C:\Program Files\Apache\apache-jmeter-5.1.1\bin\user.properties
+2019-03-28 22:56:33,420 INFO o.a.j.JMeter: Loading system properties from: C:\Program Files\Apache\apache-jmeter-5.1.1\bin\system.properties
+2019-03-28 22:56:33,432 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
+2019-03-28 22:56:33,432 INFO o.a.j.JMeter: Version 5.1.1 r1855137
+2019-03-28 22:56:33,432 INFO o.a.j.JMeter: java.version=1.8.0_181
+2019-03-28 22:56:33,432 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2019-03-28 22:56:33,433 INFO o.a.j.JMeter: os.name=Windows 10
+2019-03-28 22:56:33,433 INFO o.a.j.JMeter: os.arch=amd64
+2019-03-28 22:56:33,433 INFO o.a.j.JMeter: os.version=10.0
+2019-03-28 22:56:33,433 INFO o.a.j.JMeter: file.encoding=Cp1252
+2019-03-28 22:56:33,433 INFO o.a.j.JMeter: java.awt.headless=null
+2019-03-28 22:56:33,433 INFO o.a.j.JMeter: Max memory     =1073741824
+2019-03-28 22:56:33,433 INFO o.a.j.JMeter: Available Processors =12
+2019-03-28 22:56:33,436 INFO o.a.j.JMeter: Default Locale=English (EN)
+2019-03-28 22:56:33,436 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2019-03-28 22:56:33,436 INFO o.a.j.JMeter: JMeterHome=C:\Program Files\Apache\apache-jmeter-5.1.1
+2019-03-28 22:56:33,436 INFO o.a.j.JMeter: user.dir  =C:\Users\Samuel\Documents\GitHub\jguwekarest
+2019-03-28 22:56:33,437 INFO o.a.j.JMeter: PWD       =C:\Users\Samuel\Documents\GitHub\jguwekarest
+2019-03-28 22:56:33,438 INFO o.a.j.JMeter: IP: 192.168.0.100 Name: DESKTOP-SAM FullName: DESKTOP-SAM
+2019-03-28 22:56:33,687 INFO o.a.j.g.a.LookAndFeelCommand: Installing Darcula LAF
+2019-03-28 22:56:33,699 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: com.bulenkov.darcula.DarculaLaf [Darcula]
+2019-03-28 22:56:33,699 INFO o.a.j.JMeter: Setting LAF to: com.bulenkov.darcula.DarculaLaf
+2019-03-28 22:56:33,749 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2019-03-28 22:56:34,918 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-03-28 22:56:34,918 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-03-28 22:56:34,918 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-03-28 22:56:34,919 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-03-28 22:56:34,919 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2019-03-28 22:56:34,919 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2019-03-28 22:56:35,194 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2019-03-28 22:56:35,194 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file C:\Program Files\Apache\apache-jmeter-5.1.1\bin\proxyserver.jks
+2019-03-28 22:56:35,327 INFO o.a.j.s.FileServer: Default base='C:\Users\Samuel\Documents\GitHub\jguwekarest'
+2019-03-28 22:56:35,747 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2019-03-28 22:56:35,748 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2019-03-28 22:56:35,748 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2019-03-28 22:56:35,748 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2019-03-28 22:57:46,537 INFO o.a.j.g.a.Load: Loading file: C:\Users\Samuel\Documents\GitHub\jguwekarest\TP2\scenarios\scenario2.jmx
+2019-03-28 22:57:46,538 INFO o.a.j.s.FileServer: Set new base='C:\Users\Samuel\Documents\GitHub\jguwekarest\TP2\scenarios'
+2019-03-28 22:57:46,647 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2019-03-28 22:57:46,661 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2019-03-28 22:57:46,662 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2019-03-28 22:57:46,664 INFO o.a.j.s.SaveService: Loading file: C:\Users\Samuel\Documents\GitHub\jguwekarest\TP2\scenarios\scenario2.jmx
+2019-03-28 22:57:46,729 INFO o.a.j.s.FileServer: Set new base='C:\Users\Samuel\Documents\GitHub\jguwekarest\TP2\scenarios'
+2019-03-28 22:58:01,613 ERROR o.a.j.g.a.Save: Could not backup file! Backup directory does not exist, is not a directory or could not be created ! <C:\Program Files\Apache\apache-jmeter-5.1.1\backups>
+2019-03-28 22:58:08,368 INFO o.a.j.g.a.Load: Loading file: C:\Users\Samuel\Documents\GitHub\jguwekarest\TP2\scenarios\scenario3.jmx
+2019-03-28 22:58:08,368 INFO o.a.j.s.FileServer: Set new base='C:\Users\Samuel\Documents\GitHub\jguwekarest\TP2\scenarios'
+2019-03-28 22:58:08,368 INFO o.a.j.s.SaveService: Loading file: C:\Users\Samuel\Documents\GitHub\jguwekarest\TP2\scenarios\scenario3.jmx
+2019-03-28 22:58:08,384 INFO o.a.j.s.FileServer: Set new base='C:\Users\Samuel\Documents\GitHub\jguwekarest\TP2\scenarios'
+2019-03-28 22:58:15,305 ERROR o.a.j.g.a.Save: Could not backup file! Backup directory does not exist, is not a directory or could not be created ! <C:\Program Files\Apache\apache-jmeter-5.1.1\backups>
+2019-03-28 22:58:19,941 INFO o.a.j.g.a.Load: Loading file: C:\Users\Samuel\Documents\GitHub\jguwekarest\TP2\scenarios\scenario4.jmx
+2019-03-28 22:58:19,941 INFO o.a.j.s.FileServer: Set new base='C:\Users\Samuel\Documents\GitHub\jguwekarest\TP2\scenarios'
+2019-03-28 22:58:19,941 INFO o.a.j.s.SaveService: Loading file: C:\Users\Samuel\Documents\GitHub\jguwekarest\TP2\scenarios\scenario4.jmx
+2019-03-28 22:58:19,954 INFO o.a.j.s.FileServer: Set new base='C:\Users\Samuel\Documents\GitHub\jguwekarest\TP2\scenarios'
+2019-03-28 22:58:24,944 ERROR o.a.j.g.a.Save: Could not backup file! Backup directory does not exist, is not a directory or could not be created ! <C:\Program Files\Apache\apache-jmeter-5.1.1\backups>
+2019-03-28 22:58:42,933 ERROR o.a.j.g.a.Save: Could not backup file! Backup directory does not exist, is not a directory or could not be created ! <C:\Program Files\Apache\apache-jmeter-5.1.1\backups>
+2019-03-28 22:58:47,087 INFO o.a.j.g.a.Load: Loading file: C:\Users\Samuel\Documents\GitHub\jguwekarest\TP2\scenarios\scenario3.jmx
+2019-03-28 22:58:47,088 INFO o.a.j.s.FileServer: Set new base='C:\Users\Samuel\Documents\GitHub\jguwekarest\TP2\scenarios'
+2019-03-28 22:58:47,088 INFO o.a.j.s.SaveService: Loading file: C:\Users\Samuel\Documents\GitHub\jguwekarest\TP2\scenarios\scenario3.jmx
+2019-03-28 22:58:47,097 INFO o.a.j.s.FileServer: Set new base='C:\Users\Samuel\Documents\GitHub\jguwekarest\TP2\scenarios'
+2019-03-28 22:58:53,625 ERROR o.a.j.g.a.Save: Could not backup file! Backup directory does not exist, is not a directory or could not be created ! <C:\Program Files\Apache\apache-jmeter-5.1.1\backups>
+2019-03-28 22:59:28,996 ERROR o.a.j.g.a.Save: Could not backup file! Backup directory does not exist, is not a directory or could not be created ! <C:\Program Files\Apache\apache-jmeter-5.1.1\backups>
+2019-03-28 22:59:29,008 INFO o.a.j.g.a.Load: Loading file: C:\Users\Samuel\Documents\GitHub\jguwekarest\TP2\scenarios\scenario2.jmx
+2019-03-28 22:59:29,008 INFO o.a.j.s.FileServer: Set new base='C:\Users\Samuel\Documents\GitHub\jguwekarest\TP2\scenarios'
+2019-03-28 22:59:29,008 INFO o.a.j.s.SaveService: Loading file: C:\Users\Samuel\Documents\GitHub\jguwekarest\TP2\scenarios\scenario2.jmx
+2019-03-28 22:59:29,018 INFO o.a.j.s.FileServer: Set new base='C:\Users\Samuel\Documents\GitHub\jguwekarest\TP2\scenarios'
+2019-03-28 22:59:35,576 ERROR o.a.j.g.a.Save: Could not backup file! Backup directory does not exist, is not a directory or could not be created ! <C:\Program Files\Apache\apache-jmeter-5.1.1\backups>
+2019-03-28 22:59:39,094 INFO o.a.j.g.a.Load: Loading file: C:\Users\Samuel\Documents\GitHub\jguwekarest\TP2\scenarios\scenario1.jmx
+2019-03-28 22:59:39,095 INFO o.a.j.s.FileServer: Set new base='C:\Users\Samuel\Documents\GitHub\jguwekarest\TP2\scenarios'
+2019-03-28 22:59:39,095 INFO o.a.j.s.SaveService: Loading file: C:\Users\Samuel\Documents\GitHub\jguwekarest\TP2\scenarios\scenario1.jmx
+2019-03-28 22:59:39,103 INFO o.a.j.s.FileServer: Set new base='C:\Users\Samuel\Documents\GitHub\jguwekarest\TP2\scenarios'
+2019-03-28 22:59:46,783 ERROR o.a.j.g.a.Save: Could not backup file! Backup directory does not exist, is not a directory or could not be created ! <C:\Program Files\Apache\apache-jmeter-5.1.1\backups>
